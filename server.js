@@ -12,16 +12,16 @@ app.use(express.static(path.join(__dirname, 'public/')));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'views/SEO.HTML'));
 });
-app.get('/PART2', function(req, res){
+app.get('/PART2.HTML', function(req, res){
   res.sendFile(path.join(__dirname, 'views/PART2.HTML'));
 });
-app.get('/PART3', function(req, res){
+app.get('/PART3.HTML', function(req, res){
   res.sendFile(path.join(__dirname, 'views/PART3.HTML'));
 });
-app.get('/PART4', function(req, res){
+app.get('/PART4.HTML', function(req, res){
   res.sendFile(path.join(__dirname, 'views/PART4.HTML'));
 });
-app.get('/BACKLINKS', function(req, res){
+app.get('/BACKLINKS.HTML', function(req, res){
   res.sendFile(path.join(__dirname, 'views/BACKLINKS.HTML'));
 });
 //express server listen
